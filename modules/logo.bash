@@ -7,7 +7,7 @@ echo -e "
 ██║     ██║██║  ██║███████╗    ███████║██║  ██║███████╗███████╗███████╗
 ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 
-\033[1;33mFire linux command or bash script on multiple linux server\033[0m
+\033[1;33mFire linux command or bash script on multiple linux server without using Ansible \033[0m
 You are free to modify this code.
 Source code \033[1;32mhttps://github.com/puchauhan2/fireshell\033[0m
 "

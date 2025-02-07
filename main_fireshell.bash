@@ -5,9 +5,6 @@ source ./credential_config.sh
 initializer
 logo
 
-argument='-q -o BatchMode=yes -o StrictHostKeyChecking=no'
-bypass='-o StrictHostKeyChecking=no -O'
-
 R='\033[1;31m'     # ${R}
 G='\033[1;32m'     # ${G}
 C='\033[0m'        # ${C}
@@ -276,9 +273,9 @@ function pack_install() {
 ################ Menu ################
 
 function menu (){
-echo -e "${G} \n########## Printing Menu ######### ${C}\n"
+echo -e "${G} \n########## Menu ######### ${C}\n"
 echo -e "${Y} Press 1 Get System Info ${C}\n"
-echo -e "${Y} Press 2 To run your script ${C}\n"
+echo -e "${Y} Press 2 To run your script ${C} # Modify file first in modules dir\n " 
 echo -e "${Y} Press 3 To run Package Check and install preckeck packages ${C}\n"
 read -p "Please enter your choice OR Press CTRL + c to Exit " choice
 
