@@ -35,7 +35,7 @@ esac
 function system_info_executer(){
    ssh ${argument} -i ${key} -p ${port} ${ssh_user}@${1} 'sudo -n bash -s' < modules/system_info.bash ;
 }
-
+ 
 #### 2
 function run_your_script_executer(){
    ssh ${argument} -i ${key} -p ${port} ${ssh_user}@${1} 'sudo -n bash -s' < modules/run_your_script.bash ;
